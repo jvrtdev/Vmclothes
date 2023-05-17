@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+body{
+    height: 100%;
+}
+
+/*cabecalho e nav*/
+.cabecalho-container{
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.container-lista{
+    display: flex;
+    transition: 0.3s;
+}
+.container-lista li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.container-lista li{
+    display: inline-block;
+    transition: 0.3s;
+
+    
+}
+.container-lista a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 14pt;
+    padding: 5px;
+    border: 1px solid #000;
+    transition: 0.3s;
+
+}
+/*area da section*/
+.container-section{
+    height: 700px;
+    background-image: url(img/vmclothes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+
+}
+
+.conteudo-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+.titulo{}
+
+.conteudo-section p{
+    font: weight 500px;
+    text-shadow: 0px 0px 1px #fff;
+    font-size: 25pt;
+    text-align: center;
+    margin-top: 10px;
+}
+.botao{
+    margin-top: 50px;
+}
+.botao a{
+    color: #000;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    font-size: 15pt;
+    transition: 0.3s;
+}
+.botao a:hover{
+    background-color: #000;
+    color: #fff;
+}
+/*conteudo do site*/
+.mostruario-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.items{
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.items:hover{
+    transform: translateY(-1.1rem);
+    box-shadow: 0px 5px 10px #0000007e;
+}
+
+.items img{
+    width: 200px;
+}
+
+.items p{
+    text-align: center;
+
+}
+
+body h2{
+    text-align: center;
+    font-size: 20pt;
+    margin-bottom: 20px;
+}
+/*rodape(footer)*/
+.rodape{
+    background-color: #11172f;
+    color: #ffffff;
+    height: 100%;
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.texto-rodape{
+    display: flex;
+    width: 50%;
+    padding: 20px;
+}
+
+.texto-rodape p{
+    text-align: start;
+    text-justify: auto;
+    padding: 20px;
+    
+}
+
+/*icones-redesocial*/
+.logos-container{
+    margin-right: 20px;
+}
+
+.items-logo li{
+    display: inline-block;
+    margin-inline: 3px;
+
+}
+.items-logo img{
+    width: 50px;
+}
+
+
